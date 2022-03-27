@@ -893,16 +893,24 @@ local function ZQNHZ_fake_script() -- Button1.LocalScript
 	local button = script.Parent
 	button.Name = "XNSAUF"
 	--------------------------------------------------------------------------------------------------------------------------------------------------
-	script.Parent.MouseButton1Click:Connect(function()
-		game.Players.LocalPlayer.OppPokemon.Bulbasaur.CurrentHP:Destroy()
-
-		local HP = Instance.new("IntValue", game.Players.LocalPlayer.OppPokemon.Bulbasaur)
-		HP.Name = "CurrentHP"
-		HP.Value = "1"
-
-
-	end)
-end
+script.Parent.MouseButton1Click:Connect(function()
+	local rename = "FolderRe" -- useless, just seeing/testing somethin 
+	local pokenames = game.Players.LocalPlayer.OppPokemon:GetChildren()
+	local HpHaxDuh = game.Players.LocalPlayer.OppPokemon:GetDescendants()
+	
+	for i, v in pairs(pokenames) do
+		v.Name = rename
+		if v.Name == rename then
+			for x, c in pairs(HpHaxDuh) do
+				if c:IsA("IntValue") and c.Name == "CurrentHP" then
+					 c.Value = 0
+				end
+			end
+			
+			
+		end
+	end
+end)
 coroutine.wrap(ZQNHZ_fake_script)()
 local function KDPL_fake_script() -- TextLabel_2.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel_2)
