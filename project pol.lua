@@ -623,7 +623,7 @@ local function XKABTO_fake_script() -- MainFrame.LocalScript232323
 
 	local MF = script.Parent
 	MF.Name = "SUXH345543CXSUAFNUSAUXNU34BU23B4BUDSABUCSANXUSNAUFBY4BY13H123GH12H31H231H23HDBSAHXBASXNAUSDNSAN3"
-	
+
 	local FFM = script.Parent.LocalScript
 	FFM.Name = "121212121212121212121212121212121212"
 end
@@ -632,7 +632,7 @@ coroutine.wrap(XKABTO_fake_script)()
 --------------------------------------------------------------------------------------------------------------------------------------------------
 local function BUGBLC_fake_script() -- MainFrame.Toggle 
 	local script = Instance.new('LocalScript', MainFrame)
-	
+
 	local FFM = script.Parent.LocalScript
 	FFM.Name = "121212121212121212121212121212121212"
 
@@ -654,7 +654,7 @@ coroutine.wrap(BUGBLC_fake_script)()
 --------------------------------------------------------------------------------------------------------------------------------------------------
 local function DYSWU_fake_script() -- MainFrame.Drag 
 	local script = Instance.new('LocalScript', MainFrame)
-	
+
 	local FFM = script.Parent.LocalScript
 	FFM.Name = "121212121212121212121212121212121212"
 
@@ -893,494 +893,492 @@ local function ZQNHZ_fake_script() -- Button1.LocalScript
 	local button = script.Parent
 	button.Name = "XNSAUF"
 	--------------------------------------------------------------------------------------------------------------------------------------------------
-script.Parent.MouseButton1Click:Connect(function()
-	local rename = "FolderRe" -- useless, just seeing/testing somethin 
-	local pokenames = game.Players.LocalPlayer.OppPokemon:GetChildren()
-	local HpHaxDuh = game.Players.LocalPlayer.OppPokemon:GetDescendants()
-	
-	for i, v in pairs(pokenames) do
-		v.Name = rename
-		if v.Name == rename then
-			for x, c in pairs(HpHaxDuh) do
-				if c:IsA("IntValue") and c.Name == "CurrentHP" then
-					 c.Value = 0
+	script.Parent.MouseButton1Click:Connect(function()
+		local rename = "FolderRe" -- useless, just seeing/testing somethin 
+		local pokenames = game.Players.LocalPlayer.OppPokemon:GetChildren()
+		local HpHaxDuh = game.Players.LocalPlayer.OppPokemon:GetDescendants()
+
+		for i, v in pairs(pokenames) do
+			v.Name = rename
+			if v.Name == rename then
+				for x, c in pairs(HpHaxDuh) do
+					if c:IsA("IntValue") and c.Name == "CurrentHP" then
+						c.Value = 0
+					end
 				end
+
+
 			end
-			
-			
 		end
+	end)
 	end
-end)
-coroutine.wrap(ZQNHZ_fake_script)()
-local function KDPL_fake_script() -- TextLabel_2.LocalScript 
-	local script = Instance.new('LocalScript', TextLabel_2)
+	coroutine.wrap(ZQNHZ_fake_script)()
+	local function KDPL_fake_script() -- TextLabel_2.LocalScript 
+		local script = Instance.new('LocalScript', TextLabel_2)
 
-	local TL = script.Parent
-	TL.Name = "FKSANUIXASNUFBAHUB2NU3NB2J13NWDNAISXNIASNUDWBNU3BN4U23N432NESANXISANUDDASBNUFB3U4B21OU3B2OSNASZXNZN"
+		local TL = script.Parent
+		TL.Name = "FKSANUIXASNUFBAHUB2NU3NB2J13NWDNAISXNIASNUDWBNU3BN4U23N432NESANXISANUDDASBNUFB3U4B21OU3B2OSNASZXNZN"
 
-	local FFM = script.Parent.LocalScript
-	FFM.Name = "121212121212121212121212121212121212"
+		local FFM = script.Parent.LocalScript
+		FFM.Name = "121212121212121212121212121212121212"
 
-end
-coroutine.wrap(KDPL_fake_script)()
---------------------------------------------------------------------------------------------------------------------------------------------------
---------------------------------------------------------------------------------------------------------------------------------------------------
-local function QBNIXPT_fake_script() -- Button12.LocalScript 
-	local script = Instance.new('LocalScript', Button12)
-
-	local FFM = script.Parent.LocalScript
-	FFM.Name = "121212121212121212121212121212121212"
-
-
-	local button = script.Parent
-	button.Name = "XSAFRT"
+	end
+	coroutine.wrap(KDPL_fake_script)()
 	--------------------------------------------------------------------------------------------------------------------------------------------------
-	script.Parent.MouseButton1Click:Connect(function()
-		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 100
-
-	end)
-end
-coroutine.wrap(QBNIXPT_fake_script)()
-local function VAXTXO_fake_script() -- Button22.LocalScript 
-	local script = Instance.new('LocalScript', Button22)
-
-	local FFM = script.Parent.LocalScript
-	FFM.Name = "121212121212121212121212121212121212"
-
-
-	local button = script.Parent
-	button.Name = "SXCXCG"
 	--------------------------------------------------------------------------------------------------------------------------------------------------
-	script.Parent.MouseButton1Click:Connect(function()
-		local Player = game.Players.LocalPlayer
-		local Mouse = Player:GetMouse()
-		Mouse.Button2Down:Connect(function()
-			local MousePos = Mouse.Hit
-			Player.Character.HumanoidRootPart.CFrame = MousePos + Vector3.new(0,5,0)
+	local function QBNIXPT_fake_script() -- Button12.LocalScript 
+		local script = Instance.new('LocalScript', Button12)
+
+		local FFM = script.Parent.LocalScript
+		FFM.Name = "121212121212121212121212121212121212"
+
+
+		local button = script.Parent
+		button.Name = "XSAFRT"
+		--------------------------------------------------------------------------------------------------------------------------------------------------
+		script.Parent.MouseButton1Click:Connect(function()
+			game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 100
+
 		end)
-	end)
-end
-coroutine.wrap(VAXTXO_fake_script)()
-local function VBCI_fake_script() -- Button32.LocalScript 
-	local script = Instance.new('LocalScript', Button32)
+	end
+	coroutine.wrap(QBNIXPT_fake_script)()
+	local function VAXTXO_fake_script() -- Button22.LocalScript 
+		local script = Instance.new('LocalScript', Button22)
 
-	local FFM = script.Parent.LocalScript
-	FFM.Name = "121212121212121212121212121212121212"
+		local FFM = script.Parent.LocalScript
+		FFM.Name = "121212121212121212121212121212121212"
 
 
-	local button = script.Parent
-	button.Name = "XSATERYR"
+		local button = script.Parent
+		button.Name = "SXCXCG"
+		--------------------------------------------------------------------------------------------------------------------------------------------------
+		script.Parent.MouseButton1Click:Connect(function()
+			local Player = game.Players.LocalPlayer
+			local Mouse = Player:GetMouse()
+			Mouse.Button2Down:Connect(function()
+				local MousePos = Mouse.Hit
+				Player.Character.HumanoidRootPart.CFrame = MousePos + Vector3.new(0,5,0)
+			end)
+		end)
+	end
+	coroutine.wrap(VAXTXO_fake_script)()
+	local function VBCI_fake_script() -- Button32.LocalScript 
+		local script = Instance.new('LocalScript', Button32)
+
+		local FFM = script.Parent.LocalScript
+		FFM.Name = "121212121212121212121212121212121212"
+
+
+		local button = script.Parent
+		button.Name = "XSATERYR"
+		--------------------------------------------------------------------------------------------------------------------------------------------------
+		script.Parent.MouseButton1Click:Connect(function()
+			local noclip = true local char = game.Players.LocalPlayer.Character while true do if noclip == true then for _,v in pairs(char:children()) do pcall(function() if v.className == "Part" then v.CanCollide = false elseif v.ClassName == "Model" then v.Head.CanCollide = false end end) end end game:service("RunService").Stepped:wait() end
+
+		end)
+	end
+	coroutine.wrap(VBCI_fake_script)()
+	local function XPLUUM_fake_script() -- Button42.LocalScript 
+		local script = Instance.new('LocalScript', Button42)
+
+		local FFM = script.Parent.LocalScript
+		FFM.Name = "121212121212121212121212121212121212"
+
+
+		local button = script.Parent
+		button.Name = "CDSGFJ13"
+		--------------------------------------------------------------------------------------------------------------------------------------------------
+		script.Parent.MouseButton1Click:Connect(function()
+			game:GetService("StarterGui"):SetCore("ResetButtonCallback", true)
+
+		end)
+	end
+	coroutine.wrap(XPLUUM_fake_script)()
+	local function CCIIER_fake_script() -- Button52.LocalScript 
+		local script = Instance.new('LocalScript', Button52)
+
+		local FFM = script.Parent.LocalScript
+		FFM.Name = "121212121212121212121212121212121212"
+
+
+		local button = script.Parent
+		button.Name = "FDSFVCXV"
+		--------------------------------------------------------------------------------------------------------------------------------------------------
+		script.Parent.MouseButton1Click:Connect(function()
+			game:GetService('Players').LocalPlayer.DevEnableMouseLock = true
+
+		end)
+	end
+	coroutine.wrap(CCIIER_fake_script)()
+	local function OJQQKHN_fake_script() -- LastPage1.LocalScript 
+		local script = Instance.new('LocalScript', LastPage1)
+
+		local FFM = script.Parent.LocalScript
+		FFM.Name = "121212121212121212121212121212121212"
+
+
+		local button = script.Parent
+		button.Name = "XFASDFSDG"
+		--------------------------------------------------------------------------------------------------------------------------------------------------
+		script.Parent.MouseButton1Click:connect(function()
+			script.Parent.Parent.Parent.FASUXH345543CXSUAFNUSAUXNU34BU23B4BUDSABUCSANXUSNAUFBY4BY13H123GH12H31H231H23HDBSAHXBASXNAUSDNSAN34N.Visible = true
+			script.Parent.Parent.Parent.XNAIGH345543CXSUAFNUSAUXNU34BU23B4BUDSABUCSANXUSNAUFBY4BY13H123GH12H31H231H23HDBSAHXBASXNAUSDNSAN34N.Visible = false
+			script.Parent.Parent.Parent.GLXIRH345543CXSUAFNUSAUXNU34BU23B4BUDSABUCSANXUSNAUFBY4BY13H123GH12H31H231H23HDBSAHXBASXNAUSDNSAN34N.Visible = false
+			script.Parent.Parent.Parent.XCAFXH345543CXSUAFNUSAUXNU34BU23B4BUDSABUCSANXUSNAUFBY4BY13H123GH12H31H231H23HDBSAHXBASXNAUSDNSAN34N.Visible = false
+			wait(0.1)
+		end)
+	end
+	coroutine.wrap(OJQQKHN_fake_script)()
+	local function AGIDNS_fake_script() -- Button72.LocalScript 
+		local script = Instance.new('LocalScript', Button72)
+
+		local FFM = script.Parent.LocalScript
+		FFM.Name = "121212121212121212121212121212121212"
+
+
+		local button = script.Parent
+		button.Name = "XSAGFHY"
+		--------------------------------------------------------------------------------------------------------------------------------------------------
+		script.Parent.MouseButton1Click:Connect(function()
+			game.Players.LocalPlayer.Character.Head:Destroy()
+
+		end)
+	end
+	coroutine.wrap(AGIDNS_fake_script)()
+	local function CCEG_fake_script() -- NextPage2.LocalScript 
+		local script = Instance.new('LocalScript', NextPage2)
+
+		local FFM = script.Parent.LocalScript
+		FFM.Name = "121212121212121212121212121212121212"
+
+
+		local button = script.Parent
+		button.Name = "ED3RYH"
+		--------------------------------------------------------------------------------------------------------------------------------------------------
+		script.Parent.MouseButton1Click:connect(function()
+			script.Parent.Parent.Parent.FASUXH345543CXSUAFNUSAUXNU34BU23B4BUDSABUCSANXUSNAUFBY4BY13H123GH12H31H231H23HDBSAHXBASXNAUSDNSAN34N.Visible = false
+			script.Parent.Parent.Parent.XNAIGH345543CXSUAFNUSAUXNU34BU23B4BUDSABUCSANXUSNAUFBY4BY13H123GH12H31H231H23HDBSAHXBASXNAUSDNSAN34N.Visible = false
+			script.Parent.Parent.Parent.GLXIRH345543CXSUAFNUSAUXNU34BU23B4BUDSABUCSANXUSNAUFBY4BY13H123GH12H31H231H23HDBSAHXBASXNAUSDNSAN34N.Visible = true
+			script.Parent.Parent.Parent.XCAFXH345543CXSUAFNUSAUXNU34BU23B4BUDSABUCSANXUSNAUFBY4BY13H123GH12H31H231H23HDBSAHXBASXNAUSDNSAN34N.Visible = false
+			wait(0.1)
+		end)
+	end
+	coroutine.wrap(CCEG_fake_script)()
+	local function PSSJ_fake_script() -- TextLabel.LocalScript 
+		local script = Instance.new('LocalScript', TextLabel)
+
+		local TL = script.Parent
+		TL.Name = "NSIFNW8EIRNI43N5I32N45I3N5IKREFNASNXISAFNIASTNGSENGIRFEW8FHWE8THWE8THW858458H8FSD8FDSH8FH8DSF8SD8FSD8"
+
+		local FFM = script.Parent.LocalScript
+		FFM.Name = "121212121212121212121212121212121212"
+
+	end
+	coroutine.wrap(PSSJ_fake_script)()
+	local function FIRO_fake_script() -- SecondFrame.LocalScript 
+		local script = Instance.new('LocalScript', SecondFrame)
+
+		local FFM = script.Parent.LocalScript
+		FFM.Name = "121212121212121212121212121212121212"
+
+
+		local FF = script.Parent
+		FF.Name = "XNAIGH345543CXSUAFNUSAUXNU34BU23B4BUDSABUCSANXUSNAUFBY4BY13H123GH12H31H231H23HDBSAHXBASXNAUSDNSAN34N"
+	end
+	coroutine.wrap(FIRO_fake_script)()
 	--------------------------------------------------------------------------------------------------------------------------------------------------
-	script.Parent.MouseButton1Click:Connect(function()
-		local noclip = true local char = game.Players.LocalPlayer.Character while true do if noclip == true then for _,v in pairs(char:children()) do pcall(function() if v.className == "Part" then v.CanCollide = false elseif v.ClassName == "Model" then v.Head.CanCollide = false end end) end end game:service("RunService").Stepped:wait() end
-
-	end)
-end
-coroutine.wrap(VBCI_fake_script)()
-local function XPLUUM_fake_script() -- Button42.LocalScript 
-	local script = Instance.new('LocalScript', Button42)
-
-	local FFM = script.Parent.LocalScript
-	FFM.Name = "121212121212121212121212121212121212"
-
-
-	local button = script.Parent
-	button.Name = "CDSGFJ13"
 	--------------------------------------------------------------------------------------------------------------------------------------------------
-	script.Parent.MouseButton1Click:Connect(function()
-		game:GetService("StarterGui"):SetCore("ResetButtonCallback", true)
+	local function WRYER_fake_script() -- Button13.LocalScript 
+		local script = Instance.new('LocalScript', Button13)
 
-	end)
-end
-coroutine.wrap(XPLUUM_fake_script)()
-local function CCIIER_fake_script() -- Button52.LocalScript 
-	local script = Instance.new('LocalScript', Button52)
-
-	local FFM = script.Parent.LocalScript
-	FFM.Name = "121212121212121212121212121212121212"
+		local FFM = script.Parent.LocalScript
+		FFM.Name = "121212121212121212121212121212121212"
 
 
-	local button = script.Parent
-	button.Name = "FDSFVCXV"
+		local button = script.Parent
+		button.Name = "XATWT4Y"
+		--------------------------------------------------------------------------------------------------------------------------------------------------
+		script.Parent.MouseButton1Click:Connect(function()
+			game.Players.LocalPlayer.ShinyVIP.Value = true
+
+		end)
+	end
+	coroutine.wrap(WRYER_fake_script)()
+	local function FRSVSQS_fake_script() -- Button23.LocalScript 
+		local script = Instance.new('LocalScript', Button23)
+
+		local FFM = script.Parent.LocalScript
+		FFM.Name = "121212121212121212121212121212121212"
+
+
+		local button = script.Parent
+		button.Name = "X3i2odXSF"
+		--------------------------------------------------------------------------------------------------------------------------------------------------
+		script.Parent.MouseButton1Click:Connect(function()
+			game.Players.LocalPlayer.AuraVIP.Value = true
+		end)
+	end
+	coroutine.wrap(FRSVSQS_fake_script)()
+	local function YQXFUAO_fake_script() -- Button33.LocalScript 
+		local script = Instance.new('LocalScript', Button33)
+
+		local FFM = script.Parent.LocalScript
+		FFM.Name = "121212121212121212121212121212121212"
+
+
+		local button = script.Parent
+		button.Name = "zDSio4Rio"
+		--------------------------------------------------------------------------------------------------------------------------------------------------
+		script.Parent.MouseButton1Click:Connect(function()
+			game.Players.LocalPlayer.LegendaryVIP.Value = true
+
+		end)
+	end
+	coroutine.wrap(YQXFUAO_fake_script)()
+	local function XXIUNXJ_fake_script() -- Button43.LocalScript 
+		local script = Instance.new('LocalScript', Button43)
+
+		local FFM = script.Parent.LocalScript
+		FFM.Name = "121212121212121212121212121212121212"
+
+
+		local button = script.Parent
+		button.Name = "E23423RF"
+		--------------------------------------------------------------------------------------------------------------------------------------------------
+		script.Parent.MouseButton1Click:Connect(function()
+			game.Players.LocalPlayer.MVP.Value = true
+
+		end)
+	end
+	coroutine.wrap(XXIUNXJ_fake_script)()
+	local function UCKVI_fake_script() -- Button53.LocalScript 
+		local script = Instance.new('LocalScript', Button53)
+
+		local FFM = script.Parent.LocalScript
+		FFM.Name = "121212121212121212121212121212121212"
+
+
+		local button = script.Parent
+		button.Name = "12DXZCE"
+		--------------------------------------------------------------------------------------------------------------------------------------------------
+		script.Parent.MouseButton1Click:Connect(function()
+			game.Players.LocalPlayer.RunVIP.Value = true
+
+		end)
+	end
+	coroutine.wrap(UCKVI_fake_script)()
+	local function GDFALZM_fake_script() -- LastPage2.LocalScript 
+		local script = Instance.new('LocalScript', LastPage2)
+
+		local FFM = script.Parent.LocalScript
+		FFM.Name = "121212121212121212121212121212121212"
+
+
+		local button = script.Parent
+		button.Name = "DSAROKUH"
+		--------------------------------------------------------------------------------------------------------------------------------------------------
+		script.Parent.MouseButton1Click:connect(function()
+			script.Parent.Parent.Parent.FASUXH345543CXSUAFNUSAUXNU34BU23B4BUDSABUCSANXUSNAUFBY4BY13H123GH12H31H231H23HDBSAHXBASXNAUSDNSAN34N.Visible = false
+			script.Parent.Parent.Parent.XNAIGH345543CXSUAFNUSAUXNU34BU23B4BUDSABUCSANXUSNAUFBY4BY13H123GH12H31H231H23HDBSAHXBASXNAUSDNSAN34N.Visible = true
+			script.Parent.Parent.Parent.GLXIRH345543CXSUAFNUSAUXNU34BU23B4BUDSABUCSANXUSNAUFBY4BY13H123GH12H31H231H23HDBSAHXBASXNAUSDNSAN34N.Visible = false
+			script.Parent.Parent.Parent.XCAFXH345543CXSUAFNUSAUXNU34BU23B4BUDSABUCSANXUSNAUFBY4BY13H123GH12H31H231H23HDBSAHXBASXNAUSDNSAN34N.Visible = false
+			wait(0.1)
+		end)
+	end
+	coroutine.wrap(GDFALZM_fake_script)()
+	local function FEAUY_fake_script() -- NextPage3.LocalScript 
+		local script = Instance.new('LocalScript', NextPage3)
+
+		local FFM = script.Parent.LocalScript
+		FFM.Name = "121212121212121212121212121212121212"
+
+
+		local button = script.Parent
+		button.Name = "SDAXCZ"
+		--------------------------------------------------------------------------------------------------------------------------------------------------
+		script.Parent.MouseButton1Click:connect(function()
+			script.Parent.Parent.Parent.FASUXH345543CXSUAFNUSAUXNU34BU23B4BUDSABUCSANXUSNAUFBY4BY13H123GH12H31H231H23HDBSAHXBASXNAUSDNSAN34N.Visible = false
+			script.Parent.Parent.Parent.XNAIGH345543CXSUAFNUSAUXNU34BU23B4BUDSABUCSANXUSNAUFBY4BY13H123GH12H31H231H23HDBSAHXBASXNAUSDNSAN34N.Visible = false
+			script.Parent.Parent.Parent.GLXIRH345543CXSUAFNUSAUXNU34BU23B4BUDSABUCSANXUSNAUFBY4BY13H123GH12H31H231H23HDBSAHXBASXNAUSDNSAN34N.Visible = false
+			script.Parent.Parent.Parent.XCAFXH345543CXSUAFNUSAUXNU34BU23B4BUDSABUCSANXUSNAUFBY4BY13H123GH12H31H231H23HDBSAHXBASXNAUSDNSAN34N.Visible = true
+			wait(0.1)
+		end)
+	end
+	coroutine.wrap(FEAUY_fake_script)()
+	local function KZEGP_fake_script() -- TextLabel.LocalScript 
+		local script = Instance.new('LocalScript', TextLabel)
+
+		local TL = script.Parent
+		TL.Name = "8EIRNI43N5I32N45I3N5IKREFNASNXISAFNNSIFNW8EIRNI43N5I32N45I3N5IKREFNASNXISAFNIASTNGSENGIRFEW8FHWE8THWE8THW858458H8F"
+
+
+		local FFM = script.Parent.LocalScript
+		FFM.Name = "121212121212121212121212121212121212"
+
+	end
+	coroutine.wrap(KZEGP_fake_script)()
+	local function AWUYGQX_fake_script() -- Button63.LocalScript 
+		local script = Instance.new('LocalScript', Button63)
+
+		local FFM = script.Parent.LocalScript
+		FFM.Name = "121212121212121212121212121212121212"
+
+
+		local button = script.Parent
+		button.Name = "XW53FDS"
+		--------------------------------------------------------------------------------------------------------------------------------------------------
+		script.Parent.MouseButton1Click:Connect(function()
+			game.Players.LocalPlayer.SkinVIP.Value = true
+
+		end)
+	end
+	coroutine.wrap(AWUYGQX_fake_script)()
+	local function QNSNHKN_fake_script() -- ThirdFrame.LocalScript 
+		local script = Instance.new('LocalScript', ThirdFrame)
+
+		local FFM = script.Parent.LocalScript
+		FFM.Name = "121212121212121212121212121212121212"
+
+
+		local FF = script.Parent
+		FF.Name = "GLXIRH345543CXSUAFNUSAUXNU34BU23B4BUDSABUCSANXUSNAUFBY4BY13H123GH12H31H231H23HDBSAHXBASXNAUSDNSAN34N"
+	end
+	coroutine.wrap(QNSNHKN_fake_script)()
 	--------------------------------------------------------------------------------------------------------------------------------------------------
-	script.Parent.MouseButton1Click:Connect(function()
-		game:GetService('Players').LocalPlayer.DevEnableMouseLock = true
-
-	end)
-end
-coroutine.wrap(CCIIER_fake_script)()
-local function OJQQKHN_fake_script() -- LastPage1.LocalScript 
-	local script = Instance.new('LocalScript', LastPage1)
-
-	local FFM = script.Parent.LocalScript
-	FFM.Name = "121212121212121212121212121212121212"
-
-
-	local button = script.Parent
-	button.Name = "XFASDFSDG"
 	--------------------------------------------------------------------------------------------------------------------------------------------------
-	script.Parent.MouseButton1Click:connect(function()
-		script.Parent.Parent.Parent.FASUXH345543CXSUAFNUSAUXNU34BU23B4BUDSABUCSANXUSNAUFBY4BY13H123GH12H31H231H23HDBSAHXBASXNAUSDNSAN34N.Visible = true
-		script.Parent.Parent.Parent.XNAIGH345543CXSUAFNUSAUXNU34BU23B4BUDSABUCSANXUSNAUFBY4BY13H123GH12H31H231H23HDBSAHXBASXNAUSDNSAN34N.Visible = false
-		script.Parent.Parent.Parent.GLXIRH345543CXSUAFNUSAUXNU34BU23B4BUDSABUCSANXUSNAUFBY4BY13H123GH12H31H231H23HDBSAHXBASXNAUSDNSAN34N.Visible = false
-		script.Parent.Parent.Parent.XCAFXH345543CXSUAFNUSAUXNU34BU23B4BUDSABUCSANXUSNAUFBY4BY13H123GH12H31H231H23HDBSAHXBASXNAUSDNSAN34N.Visible = false
-		wait(0.1)
-	end)
-end
-coroutine.wrap(OJQQKHN_fake_script)()
-local function AGIDNS_fake_script() -- Button72.LocalScript 
-	local script = Instance.new('LocalScript', Button72)
-
-	local FFM = script.Parent.LocalScript
-	FFM.Name = "121212121212121212121212121212121212"
-
-
-	local button = script.Parent
-	button.Name = "XSAGFHY"
-	--------------------------------------------------------------------------------------------------------------------------------------------------
-	script.Parent.MouseButton1Click:Connect(function()
-		game.Players.LocalPlayer.Character.Head:Destroy()
-
-	end)
-end
-coroutine.wrap(AGIDNS_fake_script)()
-local function CCEG_fake_script() -- NextPage2.LocalScript 
-	local script = Instance.new('LocalScript', NextPage2)
-
-	local FFM = script.Parent.LocalScript
-	FFM.Name = "121212121212121212121212121212121212"
-
-
-	local button = script.Parent
-	button.Name = "ED3RYH"
-	--------------------------------------------------------------------------------------------------------------------------------------------------
-	script.Parent.MouseButton1Click:connect(function()
-		script.Parent.Parent.Parent.FASUXH345543CXSUAFNUSAUXNU34BU23B4BUDSABUCSANXUSNAUFBY4BY13H123GH12H31H231H23HDBSAHXBASXNAUSDNSAN34N.Visible = false
-		script.Parent.Parent.Parent.XNAIGH345543CXSUAFNUSAUXNU34BU23B4BUDSABUCSANXUSNAUFBY4BY13H123GH12H31H231H23HDBSAHXBASXNAUSDNSAN34N.Visible = false
-		script.Parent.Parent.Parent.GLXIRH345543CXSUAFNUSAUXNU34BU23B4BUDSABUCSANXUSNAUFBY4BY13H123GH12H31H231H23HDBSAHXBASXNAUSDNSAN34N.Visible = true
-		script.Parent.Parent.Parent.XCAFXH345543CXSUAFNUSAUXNU34BU23B4BUDSABUCSANXUSNAUFBY4BY13H123GH12H31H231H23HDBSAHXBASXNAUSDNSAN34N.Visible = false
-		wait(0.1)
-	end)
-end
-coroutine.wrap(CCEG_fake_script)()
-local function PSSJ_fake_script() -- TextLabel.LocalScript 
-	local script = Instance.new('LocalScript', TextLabel)
-
-	local TL = script.Parent
-	TL.Name = "NSIFNW8EIRNI43N5I32N45I3N5IKREFNASNXISAFNIASTNGSENGIRFEW8FHWE8THWE8THW858458H8FSD8FDSH8FH8DSF8SD8FSD8"
-
-	local FFM = script.Parent.LocalScript
-	FFM.Name = "121212121212121212121212121212121212"
-
-end
-coroutine.wrap(PSSJ_fake_script)()
-local function FIRO_fake_script() -- SecondFrame.LocalScript 
-	local script = Instance.new('LocalScript', SecondFrame)
-
-	local FFM = script.Parent.LocalScript
-	FFM.Name = "121212121212121212121212121212121212"
-
-
-	local FF = script.Parent
-	FF.Name = "XNAIGH345543CXSUAFNUSAUXNU34BU23B4BUDSABUCSANXUSNAUFBY4BY13H123GH12H31H231H23HDBSAHXBASXNAUSDNSAN34N"
-end
-coroutine.wrap(FIRO_fake_script)()
---------------------------------------------------------------------------------------------------------------------------------------------------
---------------------------------------------------------------------------------------------------------------------------------------------------
-local function WRYER_fake_script() -- Button13.LocalScript 
-	local script = Instance.new('LocalScript', Button13)
-
-	local FFM = script.Parent.LocalScript
-	FFM.Name = "121212121212121212121212121212121212"
-
-
-	local button = script.Parent
-	button.Name = "XATWT4Y"
-	--------------------------------------------------------------------------------------------------------------------------------------------------
-	script.Parent.MouseButton1Click:Connect(function()
-		game.Players.LocalPlayer.ShinyVIP.Value = true
-
-	end)
-end
-coroutine.wrap(WRYER_fake_script)()
-local function FRSVSQS_fake_script() -- Button23.LocalScript 
-	local script = Instance.new('LocalScript', Button23)
-
-	local FFM = script.Parent.LocalScript
-	FFM.Name = "121212121212121212121212121212121212"
-
-
-	local button = script.Parent
-	button.Name = "X3i2odXSF"
-	--------------------------------------------------------------------------------------------------------------------------------------------------
-	script.Parent.MouseButton1Click:Connect(function()
-		game.Players.LocalPlayer.AuraVIP.Value = true
-	end)
-end
-coroutine.wrap(FRSVSQS_fake_script)()
-local function YQXFUAO_fake_script() -- Button33.LocalScript 
-	local script = Instance.new('LocalScript', Button33)
-
-	local FFM = script.Parent.LocalScript
-	FFM.Name = "121212121212121212121212121212121212"
-
-
-	local button = script.Parent
-	button.Name = "zDSio4Rio"
-	--------------------------------------------------------------------------------------------------------------------------------------------------
-	script.Parent.MouseButton1Click:Connect(function()
-		game.Players.LocalPlayer.LegendaryVIP.Value = true
-
-	end)
-end
-coroutine.wrap(YQXFUAO_fake_script)()
-local function XXIUNXJ_fake_script() -- Button43.LocalScript 
-	local script = Instance.new('LocalScript', Button43)
-
-	local FFM = script.Parent.LocalScript
-	FFM.Name = "121212121212121212121212121212121212"
-
-
-	local button = script.Parent
-	button.Name = "E23423RF"
-	--------------------------------------------------------------------------------------------------------------------------------------------------
-	script.Parent.MouseButton1Click:Connect(function()
-		game.Players.LocalPlayer.MVP.Value = true
-
-	end)
-end
-coroutine.wrap(XXIUNXJ_fake_script)()
-local function UCKVI_fake_script() -- Button53.LocalScript 
-	local script = Instance.new('LocalScript', Button53)
-
-	local FFM = script.Parent.LocalScript
-	FFM.Name = "121212121212121212121212121212121212"
-
-
-	local button = script.Parent
-	button.Name = "12DXZCE"
-	--------------------------------------------------------------------------------------------------------------------------------------------------
-	script.Parent.MouseButton1Click:Connect(function()
-		game.Players.LocalPlayer.RunVIP.Value = true
-
-	end)
-end
-coroutine.wrap(UCKVI_fake_script)()
-local function GDFALZM_fake_script() -- LastPage2.LocalScript 
-	local script = Instance.new('LocalScript', LastPage2)
-
-	local FFM = script.Parent.LocalScript
-	FFM.Name = "121212121212121212121212121212121212"
-
-
-	local button = script.Parent
-	button.Name = "DSAROKUH"
-	--------------------------------------------------------------------------------------------------------------------------------------------------
-	script.Parent.MouseButton1Click:connect(function()
-		script.Parent.Parent.Parent.FASUXH345543CXSUAFNUSAUXNU34BU23B4BUDSABUCSANXUSNAUFBY4BY13H123GH12H31H231H23HDBSAHXBASXNAUSDNSAN34N.Visible = false
-		script.Parent.Parent.Parent.XNAIGH345543CXSUAFNUSAUXNU34BU23B4BUDSABUCSANXUSNAUFBY4BY13H123GH12H31H231H23HDBSAHXBASXNAUSDNSAN34N.Visible = true
-		script.Parent.Parent.Parent.GLXIRH345543CXSUAFNUSAUXNU34BU23B4BUDSABUCSANXUSNAUFBY4BY13H123GH12H31H231H23HDBSAHXBASXNAUSDNSAN34N.Visible = false
-		script.Parent.Parent.Parent.XCAFXH345543CXSUAFNUSAUXNU34BU23B4BUDSABUCSANXUSNAUFBY4BY13H123GH12H31H231H23HDBSAHXBASXNAUSDNSAN34N.Visible = false
-		wait(0.1)
-	end)
-end
-coroutine.wrap(GDFALZM_fake_script)()
-local function FEAUY_fake_script() -- NextPage3.LocalScript 
-	local script = Instance.new('LocalScript', NextPage3)
-
-	local FFM = script.Parent.LocalScript
-	FFM.Name = "121212121212121212121212121212121212"
-
-
-	local button = script.Parent
-	button.Name = "SDAXCZ"
-	--------------------------------------------------------------------------------------------------------------------------------------------------
-	script.Parent.MouseButton1Click:connect(function()
-		script.Parent.Parent.Parent.FASUXH345543CXSUAFNUSAUXNU34BU23B4BUDSABUCSANXUSNAUFBY4BY13H123GH12H31H231H23HDBSAHXBASXNAUSDNSAN34N.Visible = false
-		script.Parent.Parent.Parent.XNAIGH345543CXSUAFNUSAUXNU34BU23B4BUDSABUCSANXUSNAUFBY4BY13H123GH12H31H231H23HDBSAHXBASXNAUSDNSAN34N.Visible = false
-		script.Parent.Parent.Parent.GLXIRH345543CXSUAFNUSAUXNU34BU23B4BUDSABUCSANXUSNAUFBY4BY13H123GH12H31H231H23HDBSAHXBASXNAUSDNSAN34N.Visible = false
-		script.Parent.Parent.Parent.XCAFXH345543CXSUAFNUSAUXNU34BU23B4BUDSABUCSANXUSNAUFBY4BY13H123GH12H31H231H23HDBSAHXBASXNAUSDNSAN34N.Visible = true
-		wait(0.1)
-	end)
-end
-coroutine.wrap(FEAUY_fake_script)()
-local function KZEGP_fake_script() -- TextLabel.LocalScript 
-	local script = Instance.new('LocalScript', TextLabel)
-
-	local TL = script.Parent
-	TL.Name = "8EIRNI43N5I32N45I3N5IKREFNASNXISAFNNSIFNW8EIRNI43N5I32N45I3N5IKREFNASNXISAFNIASTNGSENGIRFEW8FHWE8THWE8THW858458H8F"
-
-
-	local FFM = script.Parent.LocalScript
-	FFM.Name = "121212121212121212121212121212121212"
-
-end
-coroutine.wrap(KZEGP_fake_script)()
-local function AWUYGQX_fake_script() -- Button63.LocalScript 
-	local script = Instance.new('LocalScript', Button63)
-
-	local FFM = script.Parent.LocalScript
-	FFM.Name = "121212121212121212121212121212121212"
-
-
-	local button = script.Parent
-	button.Name = "XW53FDS"
-	--------------------------------------------------------------------------------------------------------------------------------------------------
-	script.Parent.MouseButton1Click:Connect(function()
-		game.Players.LocalPlayer.SkinVIP.Value = true
-
-	end)
-end
-coroutine.wrap(AWUYGQX_fake_script)()
-local function QNSNHKN_fake_script() -- ThirdFrame.LocalScript 
-	local script = Instance.new('LocalScript', ThirdFrame)
-
-	local FFM = script.Parent.LocalScript
-	FFM.Name = "121212121212121212121212121212121212"
-
-
-	local FF = script.Parent
-	FF.Name = "GLXIRH345543CXSUAFNUSAUXNU34BU23B4BUDSABUCSANXUSNAUFBY4BY13H123GH12H31H231H23HDBSAHXBASXNAUSDNSAN34N"
-end
-coroutine.wrap(QNSNHKN_fake_script)()
---------------------------------------------------------------------------------------------------------------------------------------------------
---------------------------------------------------------------------------------------------------------------------------------------------------
-local function JWIIPY_fake_script() -- Button14.LocalScript 
-	local script = Instance.new('LocalScript', Button14)
-
-	local FFM = script.Parent.LocalScript
-	FFM.Name = "121212121212121212121212121212121212"
-
-	local button = script.Parent
-	button.Name = "XSAFGDSGY13545"
-	--------------------------------------------------------------------------------------------------------------------------------------------------
-	script.Parent.MouseButton1Click:Connect(function()
-		local MB = Instance.new("IntValue", game.Players.LocalPlayer.Bag.Pokeball)
-		MB.Name = "Master Ball"
-		MB.Value = "9999"
-
-	end)
-end
-coroutine.wrap(JWIIPY_fake_script)()
-local function JGIX_fake_script() -- LastPage3.LocalScript 
-	local script = Instance.new('LocalScript', LastPage3)
-
-	local FFM = script.Parent.LocalScript
-	FFM.Name = "121212121212121212121212121212121212"
-
-
-	local button = script.Parent
-	button.Name = "3234dDSAX"
-	--------------------------------------------------------------------------------------------------------------------------------------------------
-	script.Parent.MouseButton1Click:connect(function()
-		script.Parent.Parent.Parent.FASUXH345543CXSUAFNUSAUXNU34BU23B4BUDSABUCSANXUSNAUFBY4BY13H123GH12H31H231H23HDBSAHXBASXNAUSDNSAN34N.Visible = false
-		script.Parent.Parent.Parent.XNAIGH345543CXSUAFNUSAUXNU34BU23B4BUDSABUCSANXUSNAUFBY4BY13H123GH12H31H231H23HDBSAHXBASXNAUSDNSAN34N.Visible = false
-		script.Parent.Parent.Parent.GLXIRH345543CXSUAFNUSAUXNU34BU23B4BUDSABUCSANXUSNAUFBY4BY13H123GH12H31H231H23HDBSAHXBASXNAUSDNSAN34N.Visible = true
-		script.Parent.Parent.Parent.XCAFXH345543CXSUAFNUSAUXNU34BU23B4BUDSABUCSANXUSNAUFBY4BY13H123GH12H31H231H23HDBSAHXBASXNAUSDNSAN34N.Visible = false
-		wait(0.1)
-	end)
-end
-coroutine.wrap(JGIX_fake_script)()
-local function UCJY_fake_script() -- Button34.LocalScript 
-	local script = Instance.new('LocalScript', Button34)
-
-	local FFM = script.Parent.LocalScript
-	FFM.Name = "121212121212121212121212121212121212"
-
-
-	local button = script.Parent
-	button.Name = "212DSADZX"
-	--------------------------------------------------------------------------------------------------------------------------------------------------
-	script.Parent.MouseButton1Click:Connect(function()
-		local args = {
-			[1] = workspace.Trainers.Blaine
-		}
-
-		game:GetService("ReplicatedStorage").REvents.Pokemon.jfd:InvokeServer(unpack(args))
-
-	end)
-end
-coroutine.wrap(UCJY_fake_script)()
-local function GWUDZX_fake_script() -- Button24.LocalScript 
-	local script = Instance.new('LocalScript', Button24)
-
-	local FFM = script.Parent.LocalScript
-	FFM.Name = "121212121212121212121212121212121212"
-
-	local button = script.Parent
-	button.Name = "XSAGRE12ZC3"
-	--------------------------------------------------------------------------------------------------------------------------------------------------
-	script.Parent.MouseButton1Click:Connect(function()
-		game.Players.LocalPlayer.Bag.Pokeball["Master Ball"]:Destroy()
-
-		local MB = Instance.new("IntValue", game.Players.LocalPlayer.Bag.Pokeball)
-		MB.Name = "Master Ball"
-		MB.Value = "9999"
-
-	end)
-end
-coroutine.wrap(GWUDZX_fake_script)()
-local function LSPLCAJ_fake_script() -- TextLabel.LocalScript 
-	local script = Instance.new('LocalScript', TextLabel)
-
-	local TL = script.Parent
-	TL.Name = "ANUIXAFKSANUIXASNUFBAHUB2NU3NB2J13NWDNAISXNIASNUDWBNU3BN4U23N432NESANXISANUDDASBNUFB3U4B21OU3B2OSNASZXNZNOSNF"
-
-
-	local FFM = script.Parent.LocalScript
-	FFM.Name = "121212121212121212121212121212121212"
-
-end
-coroutine.wrap(LSPLCAJ_fake_script)()
-local function VMQVRBB_fake_script() -- Button54.LocalScript 
-	local script = Instance.new('LocalScript', Button54)
-
-	local FFM = script.Parent.LocalScript
-	FFM.Name = "121212121212121212121212121212121212"
-
-
-	local button = script.Parent
-	button.Name = "2341XXZC"
-	--------------------------------------------------------------------------------------------------------------------------------------------------
-	script.Parent.MouseButton1Click:Connect(function()
-		local MB = Instance.new("IntValue", game.Players.LocalPlayer.Bag.Pokeball)
-		MB.Name = "Ultra Ball"
-		MB.Value = "9999"
-
-	end)
-end
-coroutine.wrap(VMQVRBB_fake_script)()
-local function UJWG_fake_script() -- Button64.LocalScript 
-	local script = Instance.new('LocalScript', Button64)
-
-	local FFM = script.Parent.LocalScript
-	FFM.Name = "121212121212121212121212121212121212"
-
-
-	local button = script.Parent
-	button.Name = "312SACXC"
-	--------------------------------------------------------------------------------------------------------------------------------------------------
-	script.Parent.MouseButton1Click:Connect(function()
-		game.Players.LocalPlayer.Bag.Pokeball["Ultra Ball"]:Destroy()
-
-		local MB = Instance.new("IntValue", game.Players.LocalPlayer.Bag.Pokeball)
-		MB.Name = "Ultra Ball"
-		MB.Value = "9999"
-
-	end)
-end
-coroutine.wrap(UJWG_fake_script)()
-local function JPWDOP_fake_script() -- FourthFrame.LocalScript32323 
-	local script = Instance.new('LocalScript', FourthFrame)
-
-	local FFM = script.Parent.LocalScript
-	FFM.Name = "121212121212121212121212121212121212"
-
-
-	local FF = script.Parent
-	FF.Name = "XCAFXH345543CXSUAFNUSAUXNU34BU23B4BUDSABUCSANXUSNAUFBY4BY13H123GH12H31H231H23HDBSAHXBASXNAUSDNSAN34N"
-end
-coroutine.wrap(JPWDOP_fake_script)()
-
---------------------------------------------------------------------------------------------------------------------------------------------------
---------------------------------------------------------------------------------------------------------------------------------------------------
+	local function JWIIPY_fake_script() -- Button14.LocalScript 
+		local script = Instance.new('LocalScript', Button14)
+
+		local FFM = script.Parent.LocalScript
+		FFM.Name = "121212121212121212121212121212121212"
+
+		local button = script.Parent
+		button.Name = "XSAFGDSGY13545"
+		--------------------------------------------------------------------------------------------------------------------------------------------------
+		script.Parent.MouseButton1Click:Connect(function()
+			local MB = Instance.new("IntValue", game.Players.LocalPlayer.Bag.Pokeball)
+			MB.Name = "Master Ball"
+			MB.Value = "9999"
+
+		end)
+	end
+	coroutine.wrap(JWIIPY_fake_script)()
+	local function JGIX_fake_script() -- LastPage3.LocalScript 
+		local script = Instance.new('LocalScript', LastPage3)
+
+		local FFM = script.Parent.LocalScript
+		FFM.Name = "121212121212121212121212121212121212"
+
+
+		local button = script.Parent
+		button.Name = "3234dDSAX"
+		--------------------------------------------------------------------------------------------------------------------------------------------------
+		script.Parent.MouseButton1Click:connect(function()
+			script.Parent.Parent.Parent.FASUXH345543CXSUAFNUSAUXNU34BU23B4BUDSABUCSANXUSNAUFBY4BY13H123GH12H31H231H23HDBSAHXBASXNAUSDNSAN34N.Visible = false
+			script.Parent.Parent.Parent.XNAIGH345543CXSUAFNUSAUXNU34BU23B4BUDSABUCSANXUSNAUFBY4BY13H123GH12H31H231H23HDBSAHXBASXNAUSDNSAN34N.Visible = false
+			script.Parent.Parent.Parent.GLXIRH345543CXSUAFNUSAUXNU34BU23B4BUDSABUCSANXUSNAUFBY4BY13H123GH12H31H231H23HDBSAHXBASXNAUSDNSAN34N.Visible = true
+			script.Parent.Parent.Parent.XCAFXH345543CXSUAFNUSAUXNU34BU23B4BUDSABUCSANXUSNAUFBY4BY13H123GH12H31H231H23HDBSAHXBASXNAUSDNSAN34N.Visible = false
+			wait(0.1)
+		end)
+	end
+	coroutine.wrap(JGIX_fake_script)()
+	local function UCJY_fake_script() -- Button34.LocalScript 
+		local script = Instance.new('LocalScript', Button34)
+
+		local FFM = script.Parent.LocalScript
+		FFM.Name = "121212121212121212121212121212121212"
+
+
+		local button = script.Parent
+		button.Name = "212DSADZX"
+		--------------------------------------------------------------------------------------------------------------------------------------------------
+		script.Parent.MouseButton1Click:Connect(function()
+			local args = {
+				[1] = workspace.Trainers.Blaine
+			}
+
+			game:GetService("ReplicatedStorage").REvents.Pokemon.jfd:InvokeServer(unpack(args))
+
+		end)
+	end
+	coroutine.wrap(UCJY_fake_script)()
+	local function GWUDZX_fake_script() -- Button24.LocalScript 
+		local script = Instance.new('LocalScript', Button24)
+
+		local FFM = script.Parent.LocalScript
+		FFM.Name = "121212121212121212121212121212121212"
+
+		local button = script.Parent
+		button.Name = "XSAGRE12ZC3"
+		--------------------------------------------------------------------------------------------------------------------------------------------------
+		script.Parent.MouseButton1Click:Connect(function()
+			game.Players.LocalPlayer.Bag.Pokeball["Master Ball"]:Destroy()
+
+			local MB = Instance.new("IntValue", game.Players.LocalPlayer.Bag.Pokeball)
+			MB.Name = "Master Ball"
+			MB.Value = "9999"
+
+		end)
+	end
+	coroutine.wrap(GWUDZX_fake_script)()
+	local function LSPLCAJ_fake_script() -- TextLabel.LocalScript 
+		local script = Instance.new('LocalScript', TextLabel)
+
+		local TL = script.Parent
+		TL.Name = "ANUIXAFKSANUIXASNUFBAHUB2NU3NB2J13NWDNAISXNIASNUDWBNU3BN4U23N432NESANXISANUDDASBNUFB3U4B21OU3B2OSNASZXNZNOSNF"
+
+
+		local FFM = script.Parent.LocalScript
+		FFM.Name = "121212121212121212121212121212121212"
+
+	end
+	coroutine.wrap(LSPLCAJ_fake_script)()
+	local function VMQVRBB_fake_script() -- Button54.LocalScript 
+		local script = Instance.new('LocalScript', Button54)
+
+		local FFM = script.Parent.LocalScript
+		FFM.Name = "121212121212121212121212121212121212"
+
+
+		local button = script.Parent
+		button.Name = "2341XXZC"
+		--------------------------------------------------------------------------------------------------------------------------------------------------
+		script.Parent.MouseButton1Click:Connect(function()
+			local MB = Instance.new("IntValue", game.Players.LocalPlayer.Bag.Pokeball)
+			MB.Name = "Ultra Ball"
+			MB.Value = "9999"
+
+		end)
+	end
+	coroutine.wrap(VMQVRBB_fake_script)()
+	local function UJWG_fake_script() -- Button64.LocalScript 
+		local script = Instance.new('LocalScript', Button64)
+
+		local FFM = script.Parent.LocalScript
+		FFM.Name = "121212121212121212121212121212121212"
+
+
+		local button = script.Parent
+		button.Name = "312SACXC"
+		--------------------------------------------------------------------------------------------------------------------------------------------------
+		script.Parent.MouseButton1Click:Connect(function()
+			game.Players.LocalPlayer.Bag.Pokeball["Ultra Ball"]:Destroy()
+
+			local MB = Instance.new("IntValue", game.Players.LocalPlayer.Bag.Pokeball)
+			MB.Name = "Ultra Ball"
+			MB.Value = "9999"
+
+		end)
+	end
+	coroutine.wrap(UJWG_fake_script)()
+	local function JPWDOP_fake_script() -- FourthFrame.LocalScript32323 
+		local script = Instance.new('LocalScript', FourthFrame)
+
+		local FFM = script.Parent.LocalScript
+		FFM.Name = "121212121212121212121212121212121212"
+
+
+		local FF = script.Parent
+		FF.Name = "XCAFXH345543CXSUAFNUSAUXNU34BU23B4BUDSABUCSANXUSNAUFBY4BY13H123GH12H31H231H23HDBSAHXBASXNAUSDNSAN34N"
+	end
+	coroutine.wrap(JPWDOP_fake_script)()
