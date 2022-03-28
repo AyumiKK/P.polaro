@@ -1,0 +1,4 @@
+local SFX2 = Instance.new("Sound", game.Workspace)
+SFX2.SoundId = "rbxassetid://6249372894"
+SFX2.Volume = 0.7
+SFX2:Play()
