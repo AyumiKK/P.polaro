@@ -1,3 +1,1 @@
-k, hihi find this you are lucky!! wow!
-
-open source yea.
+ugly script from like months ago.
