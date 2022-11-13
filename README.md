@@ -1,1 +1,1 @@
-ugly script from like months ago.
+ugly script for a pokemon game from like months ago.
